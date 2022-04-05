@@ -1,2 +1,2 @@
-# stonks
-Web application for Stocks Market
+# word-battle
+wordle multiplayer

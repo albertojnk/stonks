@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="{{.http_prefix}}/assets/css/login.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<div class="content d-flex justify-content-center align-items-center">
+
+				<!-- Login form -->
+				<form class="login-form custom-form-login">
+					<div class="card mb-0">
+						<div class="card-body">
+							<div class="text-center mb-3">
+								<h4>Word Battle</h4>
+								<h5 class="mb-0">Login to your account</h5>
+								<span class="d-block text-muted">Enter your credentials below</span>
+							</div>
+
+							<div class="form-group">
+								<label for="username">Username</label>
+								<input type="text" id="username" class="form-control" minlength="2">
+								<small class="msg">Please enter at least 2 characters</small>
+							</div>
+
+							<div class="form-group">
+								<label for="password">Password</label>
+								<input type="password" id="password" minlength="3" class="form-control">
+								<small class="msg">Please enter at least 3 characters</small>
+							</div>
+
+							<div class="form-group">
+								<button type="submit" id="submit-login" class="btn btnBlue btn-block">Sign in </button>
+							</div>
+
+						</div>
+					</div>
+				</form>
+				<!-- /login form -->
+
+			</div>
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<script>
+		var httpPrefixFromBackEnd = '{{.http_prefix}}';
+	</script>
+
+</body>
+</html>
+

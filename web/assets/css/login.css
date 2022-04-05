@@ -1,0 +1,79 @@
+.custom-form-login label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.custom-form-login input:focus {
+    box-shadow: 0 0 4px 0 #0076ce;
+}
+.custom-form-login input:invalid, .custom-form-login input.error {
+    box-shadow: 0 0 4px 0 #ea402a!important;
+    background-color: #fcdfd3!important;
+}
+.custom-form-login .msg {
+    display: none;
+    font-size: 12px;
+    color: #ea402a;
+    margin-top: 5px;
+    height: 10px;
+}
+
+.custom-form-login .forgot-password {
+    color: #0076ce;
+    cursor: pointer;
+}
+
+.custom-form-new-password {
+    max-width: 350px;
+}
+
+.custom-form-new-password label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.custom-form-new-password input:focus {
+    box-shadow: 0 0 4px 0 #0076ce;
+}
+.custom-form-new-password input:invalid, .custom-form-new-password input.error {
+    box-shadow: 0 0 4px 0 #ea402a!important;
+    background-color: #fcdfd3!important;
+}
+.custom-form-new-password .msg {
+    display: none;
+    font-size: 12px;
+    color: #ea402a;
+    margin-top: 5px;
+    height: 10px;
+}
+button.btn.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #c0c3c4!important;
+    border-color: #d7d8d9!important;
+    color: #7c878e!important;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 25% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 32%; /* Could be more or less, depending on screen size */
+}
+  
+ 
